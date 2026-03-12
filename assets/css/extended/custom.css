@@ -1,0 +1,30 @@
+/* Solarized Dark background colors */
+:root {
+  --background: #002b36;    /* Solarized base03 - main background */
+  --background2: #073642;   /* Solarized base02 - slightly lighter */
+}
+
+body {
+  background-color: #002b36 !important;
+}
+
+.post-entry, .header, header, footer, .top-link {
+  background-color: #002b36 !important;
+}
+
+.main {
+  background-color: #002b36 !important;
+}
+
+/* Skills icons layout */
+.post-content img {
+  display: inline-block;
+  margin: 4px;
+  vertical-align: middle;
+}
+
+/* Table of contents background */
+.toc {
+  background-color: #073642 !important;
+  border-color: #586e75 !important;
+}

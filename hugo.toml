@@ -1,0 +1,34 @@
+baseURL = "https://tomi.github.io/"
+languageCode = "en-us"
+title = "Tomás | Full Stack Developer"
+
+[params]
+  author = "Tomás"
+  description = "Personal site and online CV of Tomás, Full Stack Web Developer"
+  keywords = ["backend", "C#", ".NET", "Azure", "API", "developer", "full stack"]
+  defaultTheme = "dark"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm Tomás 👋"
+    Content = "Senior Backend Developer transitioning to Full Stack. Welcome to my personal site and online CV."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/tom-cor"
+
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[menu.main]]
+  name = "CV"
+  url = "/cv/"
+  weight = 10
